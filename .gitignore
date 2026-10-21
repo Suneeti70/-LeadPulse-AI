@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies
+node_modules/
+dist/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local database (if you don't want to upload your data)
+instance/
+*.db
